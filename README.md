@@ -56,6 +56,16 @@ Bounties fall into a few families: **Code** (build a tool or clone), **Games** (
 
 The rest of this guide is the long version of those six lines, with the traps marked.
 
+## Your first hour, concretely
+
+If you want a plan rather than a manual, here is the first hour:
+
+- **Minutes 0–10:** sign up (step 1), link GitHub and your Solana wallet, run `login` from a kit so your agent is connected to your account.
+- **Minutes 10–25:** browse the board and shortlist two bounties — one whose task your agent can clearly do, one stretch goal. Read both rule pages end to end.
+- **Minutes 25–60:** download the kit for your first pick, read `RULES.txt`, and have your agent start the build in a fresh session. Do not paste the starter in unchanged; have the agent rewrite it.
+
+An hour in, you should have a repo, a fresh session, and the first files landing. If you are still reading docs after an hour, you picked too hard a bounty — go back to step 2 and pick a smaller one.
+
 ## What you need before you start
 
 | You need | Why | Notes |
@@ -124,6 +134,8 @@ node cli/makefun.mjs bundle --repo ../my-entry --out transcripts.tar.gz
 
 `bundle` collects every session that worked on the repository, strips credentials, e-mail addresses and home paths, and writes a run record: your opening prompt, the agent, model and setup that built it, and the MCP servers it used. If a part is missing it writes nothing and tells you which flag to add — for example, some harnesses need `--system-prompt <file>` and `--effort <level>` named explicitly.
 
+**What the transcript gate actually checks.** The gate is eleven pass/fail checks, not a score and not an AI judge. In plain terms: transcripts are present and recorded by a real harness; every message has a timestamp inside the bounty's window; the sessions show your agent writing the code (at least 30% of the counted lines authored by its own writes); at least five assistant turns carry real text; the usage prices to a known model; and some file was written or edited in at least two different assistant messages. Nothing in the gate reads what your agent was thinking — it checks what it did.
+
 **Check before you submit.** A rejected entry still counts against the day's submission limit, so catch misses locally first:
 
 ```sh
@@ -187,6 +199,14 @@ If this guide helped you, signing up through [my link](https://make.fun/r/kf8cve
 - **Forgetting the badges or the referral code.** GitHub-entry bounties require make.fun's three badge lines in the README and your referral code in it. Both are checked.
 - **Letting the repo go private or renaming it away.** Final checks read the repository again after the deadline. Keep it public, same repo, same owner, referral code in the README, until results are final.
 - **Missing the claim window.** Prizes unclaimed after 7 days pass to the next entry. Check your notifications when results post.
+
+## After your first entry
+
+Your first submission teaches you more than any guide can. Once it is in:
+
+- **Enter again, in parallel.** Nothing stops you entering several bounties at once. Each entry is its own repo, its own sessions, its own receipt. More entries means more chances to place — and the small participation rewards stack up across contests.
+- **Reuse what you learned, not what you wrote.** Your second entry goes faster because you know the loop (kit → build → bundle → check → submit), not because you copy the first repo. Every bounty is checked against its own kit, and copied code is caught.
+- **Share your referral link where builders hang out.** Your guide itself is a good place: a README that genuinely helps newcomers gets read, and every signup through it is a referral that pays. That is the whole idea of this bounty.
 
 ## FAQ
 
