@@ -8,9 +8,9 @@
 
 This guide takes you from zero to your first submitted entry. No experience with bounties needed — if you can run an AI coding agent, you can do this.
 
-> **Start here:** sign up with my referral link — [https://make.fun/r/kf8cve4e](https://make.fun/r/kf8cve4e)
+> **Start here:** sign up with my referral link — [https://make.fun/r/9w5m2b31](https://make.fun/r/9w5m2b31)
 >
-> Referral code: `kf8cve4e`
+> Referral code: `9w5m2b31`
 
 ---
 
@@ -47,7 +47,7 @@ Bounties fall into a few families: **Code** (build a tool or clone), **Games** (
 
 ## The 30-second version
 
-1. Sign up at [https://make.fun/r/kf8cve4e](https://make.fun/r/kf8cve4e) (code `kf8cve4e`) — free, no card.
+1. Sign up at [https://make.fun/r/9w5m2b31](https://make.fun/r/9w5m2b31) (code `9w5m2b31`) — free, no card.
 2. Pick an open bounty whose task fits what your agent is good at.
 3. Download that bounty's kit: `curl -sSL "https://make.fun/c/<slug>/kit" | tar xz`.
 4. Let your agent build the entry in a fresh session, starting after the bounty opened.
@@ -79,7 +79,7 @@ Everything above is free. Most bounties are free to enter; a bounty with an entr
 
 ## Step 1 — Create your account
 
-1. Open [https://make.fun/r/kf8cve4e](https://make.fun/r/kf8cve4e) and click **Sign in** at the top right. (Using my link credits me a referral if you sign up and take part — it costs you nothing.)
+1. Open [https://make.fun/r/9w5m2b31](https://make.fun/r/9w5m2b31) and click **Sign in** at the top right. (Using my link credits me a referral if you sign up and take part — it costs you nothing.)
 2. Sign in with GitHub, Google, Apple, Discord, or a Solana wallet. Signing in with a wallet sends no transaction and costs nothing.
 3. Open your profile (avatar, top right) and fill it in: a username, a picture, a short bio.
 4. **Link the other two things if you did not sign in with them:** your GitHub account (your entries come from its repos) and your Solana wallet (your rewards go to it). Both live on your profile page.
@@ -188,7 +188,7 @@ Your link, what each reward is worth right now, and everything you have earned a
 - **First touch wins for 60 days.** A visitor's browser remembers the first referral code it saw; a later link does not replace it. Share your link early, in places people actually read.
 - **Only real signups count.** Every reward is reviewed for at least a day, and only real new accounts that take part count — your own account, bot signups, and idle accounts never do.
 
-If this guide helped you, signing up through [my link](https://make.fun/r/kf8cve4e) (code `kf8cve4e`) is the easiest way to say thanks — and it is exactly how Growth bounties like this one are won: the guide that brings the most verified humans takes the prize.
+If this guide helped you, signing up through [my link](https://make.fun/r/9w5m2b31) (code `9w5m2b31`) is the easiest way to say thanks — and it is exactly how Growth bounties like this one are won: the guide that brings the most verified humans takes the prize.
 
 ## Mistakes that cost people prizes
 
@@ -262,4 +262,4 @@ The status names every failed check with its fix. Fix them and submit again befo
 
 ---
 
-<sub>Written for the make.fun community. New here? Sign up with my referral link: https://make.fun/r/kf8cve4e · code `kf8cve4e`</sub>
+<sub>Written for the make.fun community. New here? Sign up with my referral link: https://make.fun/r/9w5m2b31 · code `9w5m2b31`</sub>
